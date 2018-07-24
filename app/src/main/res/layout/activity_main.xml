@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:onClick="openExternalUrl"
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="@dimen/paddingParam"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/lb_welcome"
+        android:textColor="@color/colorIndicator"
+        android:textSize="@dimen/titlePage" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="@string/subtitl_welcome"
+        android:textColor="@color/colorIndicator"
+        android:textSize="@dimen/subtitlePage" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="@dimen/paddingParam"
+        android:background="@drawable/btn_radius_background_"
+        android:focusable="true"
+        android:fontFamily="@font/montserrat_bold"
+        android:foreground="@drawable/btn_radius_foreground_"
+        android:onClick="myFancyMethod"
+        android:paddingLeft="@dimen/paddingParam"
+        android:paddingRight="@dimen/paddingParam"
+        android:text="Avançar"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+</LinearLayout>

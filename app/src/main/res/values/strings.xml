@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Desafio Mobile Android</string>
+    <string name="lb_welcome">Bem Vindo</string>
+    <string name="subtitl_welcome">Desafio Android | Pesquisar Filmes</string>
+    <string name="icon_search"></string>
+    <string name="icon_bars"></string>
+    <string name="titlePage_BaseApp">Home</string>
+    <string name="draw_right_tohome">Início</string>
+    <string name="draw_right_mylist">Minha Lista</string>
+    <string name="draw_right_about">Sobre o App</string>
+    <string name="icon_times"></string>
+    <string name="icon_arrow_left"></string>
+    <string name="icon_home"></string>
+    <string name="icon_bookmark"></string>
+    <string name="icon_info"></string>
+    <string name="url_zup_site">http://www.zup.com.br/</string>
+</resources>

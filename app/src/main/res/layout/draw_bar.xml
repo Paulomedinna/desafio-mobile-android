@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:background="@color/colorIndicator"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/paddingParam">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:foreground="@drawable/btn_radius_foreground_"
+            android:background="@drawable/btn_radius_background_"
+            android:id="@+id/toHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/paddingParam"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/asdfas1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/draw_right_tohome"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/titlePage" />
+
+            <TextView
+                android:id="@+id/asdfasdf1df2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/fontawesome_webfont"
+                android:text="@string/icon_home"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/titlePage" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:foreground="@drawable/btn_radius_foreground_"
+            android:background="@drawable/btn_radius_background_"
+            android:id="@+id/toMyBookmarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/paddingParam"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/asdf3asdf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/draw_right_mylist"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/titlePage" />
+
+            <TextView
+                android:id="@+id/asdfasd5tf2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/fontawesome_webfont"
+                android:text="@string/icon_bookmark"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/titlePage" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:foreground="@drawable/btn_radius_foreground_"
+            android:background="@drawable/btn_radius_background_"
+            android:id="@+id/toAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/paddingParam"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/asdfasdf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/draw_right_about"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/titlePage" />
+
+            <TextView
+                android:id="@+id/asdfasdf2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/fontawesome_webfont"
+                android:text="@string/icon_info"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/titlePage" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/logoInDraw"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo" />
+
+</LinearLayout>

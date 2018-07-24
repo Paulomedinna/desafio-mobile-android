@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titlePage">16dp</dimen>
+    <dimen name="subtitlePage">13dp</dimen>
+    <dimen name="paddingParam">16dp</dimen>
+    <dimen name="btn_height">40dp</dimen>
+    <dimen name="menubar_btn">50dp</dimen>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/menu_bar"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="6dp">
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="@dimen/menubar_btn"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-12dp"
+        android:background="@color/color_transparent"
+        android:fontFamily="@font/fontawesome_webfont"
+        android:foreground="@drawable/btn_radius_foreground_"
+        android:text="@string/icon_arrow_left"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/titlePage"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/menubar_btn"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/titlePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/montserrat_regular"
+        android:paddingLeft="10dp"
+        android:text="titlePage"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/titlePage" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="@dimen/menubar_btn"
+        android:layout_height="wrap_content"
+        android:background="#00ffffff"
+        android:fontFamily="@font/fontawesome_webfont"
+        android:foreground="@drawable/btn_radius_foreground_"
+        android:text="@string/icon_search"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/titlePage" />
+
+    <Button
+        android:id="@+id/barBtn"
+        android:layout_width="@dimen/menubar_btn"
+        android:layout_height="wrap_content"
+        android:background="@color/color_transparent"
+        android:fontFamily="@font/fontawesome_webfont"
+        android:foreground="@drawable/btn_radius_foreground_"
+        android:text="@string/icon_bars"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/titlePage" />
+
+</LinearLayout>
