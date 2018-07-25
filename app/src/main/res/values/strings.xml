@@ -14,4 +14,6 @@
     <string name="icon_bookmark"></string>
     <string name="icon_info"></string>
     <string name="url_zup_site">http://www.zup.com.br/</string>
+    <string name="title_search_dialog">Filtrar Pesquisa</string>
+    <string name="no_resultss_found">Nenhum resultado encontrado</string>
 </resources>

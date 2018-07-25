@@ -15,7 +15,7 @@ import com.mobile.desafio.zup.desafiomobileandroid.R;
 public class DrawConfig {
 
 
-    public static void begin(final Context context, String title, Boolean showBackBtn) {
+    public static void begin(final Context context, String title, Boolean showBackBtn, View.OnClickListener searchClick) {
 
 
         TextView titlePage;
@@ -44,6 +44,9 @@ public class DrawConfig {
                 PublicFunctions.openSiteZup(context);
             }
         });
+
+
+        searchBtn.setOnClickListener(searchClick);
 
         drawer_layout.addDrawerListener(new DrawerLayout.DrawerListener() {
             @Override

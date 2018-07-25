@@ -2,8 +2,11 @@
 <resources>
     <color name="colorPrimary">#01374f</color>
     <color name="colorPrimaryDark">#01374f</color>
-    <color name="colorAccent">#000</color>
+    <color name="colorAccent">#01374f</color>
+    <color name="colorBlack">#000</color>
     <color name="colorIndicator">#ffffff</color>
     <color name="shadow_color">#E3E3E1</color>
     <color name="color_transparent">#00ffffff</color>
+    <color name="grey_area">#EBEBEB</color>
+    <color name="color_background_shadow">#71000000</color>
 </resources>

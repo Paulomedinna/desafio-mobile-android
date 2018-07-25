@@ -17,12 +17,12 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:foreground="@drawable/btn_radius_foreground_"
-            android:background="@drawable/btn_radius_background_"
             android:id="@+id/toHome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/paddingParam"
+            android:background="@drawable/view_click_foreground"
+            android:foreground="@drawable/btn_radius_foreground_"
             android:gravity="right"
             android:orientation="horizontal">
 
@@ -48,12 +48,12 @@
         </LinearLayout>
 
         <LinearLayout
-            android:foreground="@drawable/btn_radius_foreground_"
-            android:background="@drawable/btn_radius_background_"
             android:id="@+id/toMyBookmarks"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/paddingParam"
+            android:background="@drawable/view_click_foreground"
+            android:foreground="@drawable/btn_radius_foreground_"
             android:gravity="right"
             android:orientation="horizontal">
 
@@ -79,12 +79,12 @@
         </LinearLayout>
 
         <LinearLayout
-            android:foreground="@drawable/btn_radius_foreground_"
-            android:background="@drawable/btn_radius_background_"
             android:id="@+id/toAbout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/paddingParam"
+            android:background="@drawable/view_click_foreground"
+            android:foreground="@drawable/btn_radius_foreground_"
             android:gravity="right"
             android:orientation="horizontal">
 
