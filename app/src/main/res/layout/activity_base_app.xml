@@ -24,6 +24,16 @@
             android:foregroundGravity="center">
 
 
+            <ListView
+                android:id="@+id/listSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:drawSelectorOnTop="true"
+                android:paddingLeft="@dimen/paddingParam"
+                android:paddingRight="@dimen/paddingParam"
+                android:paddingTop="10dp" />
+
             <include
                 layout="@layout/search_dialog"
                 android:layout_width="match_parent"

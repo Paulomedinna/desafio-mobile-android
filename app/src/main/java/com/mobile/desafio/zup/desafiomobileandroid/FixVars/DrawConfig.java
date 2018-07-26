@@ -45,8 +45,9 @@ public class DrawConfig {
             }
         });
 
-
+        if(searchClick != null)
         searchBtn.setOnClickListener(searchClick);
+        else searchBtn.setVisibility(View.GONE);
 
         drawer_layout.addDrawerListener(new DrawerLayout.DrawerListener() {
             @Override

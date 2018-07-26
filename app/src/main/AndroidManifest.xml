@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".BaseApp" />
+        <activity android:name=".SelectedSearch"></activity>
     </application>
 
 </manifest>
