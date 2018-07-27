@@ -2,7 +2,7 @@
 Projeto de apresentação do nível de desenvolvimento, no prazo de 1 semana, realizado em 4 dias
 
 # Video Explicativo
-https://youtu.be/pzY3yscUY8I
+https://youtu.be/BRPLvkJivh4
 
 # PDF do desafio
 acesse: https://github.com/murilooliveiraspinello/desafio-mobile/blob/master/Desafio-Mobile.pdf
