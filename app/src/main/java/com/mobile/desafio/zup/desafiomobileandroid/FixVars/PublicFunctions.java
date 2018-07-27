@@ -10,7 +10,6 @@ import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
-import android.widget.ProgressBar;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -25,7 +24,7 @@ import org.json.JSONObject;
 
 public class PublicFunctions {
 
-    public interface GetInt{
+    public interface GetInt {
         void get(int i);
     }
 
@@ -33,6 +32,10 @@ public class PublicFunctions {
 
     public static void openSiteZup(Context context) {
         ((Activity) context).startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(context.getString(R.string.url_zup_site))));
+    }
+
+    public static void openUrl(Context context, String url) {
+        ((Activity) context).startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
     }
 
     public static void _REST_get(final Context context, final String url, final Response.Listener<JSONObject> responseOk) {
@@ -128,7 +131,6 @@ public class PublicFunctions {
         //imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
-
 
 
     public static void SelectItemDialog(Context context, String title, CharSequence[] charSequence, final GetInt getInt) {

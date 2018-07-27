@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Desafio Mobile Android</string>
+    <string name="app_name">Desafio Android</string>
     <string name="lb_welcome">Bem Vindo</string>
     <string name="subtitl_welcome">Desafio Android | Pesquisar Filmes</string>
     <string name="icon_search"></string>
     <string name="icon_bars"></string>
-    <string name="titlePage_BaseApp">Home</string>
+    <string name="titlePage_BaseApp">Pesquisar</string>
     <string name="draw_right_tohome">Início</string>
     <string name="draw_right_mylist">Minha Lista</string>
     <string name="draw_right_about">Sobre o App</string>
@@ -17,4 +17,12 @@
     <string name="title_search_dialog">Filtrar Pesquisa</string>
     <string name="no_resultss_found">Nenhum resultado encontrado</string>
     <string name="icon_arrow_right"></string>
+    <string name="selected_description">Título salvo em sua lista, acesse MINHA LISTA para visualizar a sua lista completa, mesmo offline.</string>
+    <string name="text_wecome_baseapp">Pesquise algo!</string>
+    <string name="subtitle_baseapp">Utilize o campo Pesquisar para achar os filmes, séries ou episódios de sua escolha, ou acesse sua lista de seleções</string>
+    <string name="subtitle_aboutapp">Aplicativo para processo seletivo da Zup, desenvolvido por Murilo Oliveira.</string>
+    <string name="icon_whatsapp"></string>
+    <string name="icon_linkedin"></string>
+    <string name="icon_github"></string>
+    <string name="icon_facebook"></string>
 </resources>

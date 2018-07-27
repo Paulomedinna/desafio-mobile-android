@@ -31,7 +31,7 @@ public class SearchDialogConfig {
         final CharSequence[] typeList = new CharSequence[]{"movie", "series", "episode"};
 
         if (dialogSearch.getVisibility() == View.VISIBLE) {
-            PublicFunctions.hideKeyboard(context,edt_type);
+            PublicFunctions.hideKeyboard(context, edt_type);
             dialogSearch.setVisibility(View.GONE);
             edt_type.setText("");
             edt_title.setText("");
@@ -60,7 +60,7 @@ public class SearchDialogConfig {
         ((View) ((Activity) context).findViewById(R.id.btnCancelSearch)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                PublicFunctions.hideKeyboard(context,edt_type);
+                PublicFunctions.hideKeyboard(context, edt_type);
                 dialogSearch.setVisibility(View.GONE);
                 edt_type.setText("");
                 edt_title.setText("");
@@ -85,7 +85,7 @@ public class SearchDialogConfig {
                             edt_type.setText("");
                             edt_title.setText("");
                             edt_year.setText("");
-                            PublicFunctions.hideKeyboard(context,edt_type);
+                            PublicFunctions.hideKeyboard(context, edt_type);
                             dialogSearch.setVisibility(View.GONE);
 
                         }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".MySaveList">
+
+    <include layout="@layout/menu_bar" />
+
+    <android.support.v4.widget.DrawerLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foregroundGravity="center">
+
+            <ListView
+                android:id="@+id/listSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:drawSelectorOnTop="true"
+                android:paddingLeft="@dimen/paddingParam"
+                android:paddingRight="@dimen/paddingParam"
+                android:paddingTop="10dp" />
+
+        </FrameLayout>
+
+        <include layout="@layout/draw_bar" />
+
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

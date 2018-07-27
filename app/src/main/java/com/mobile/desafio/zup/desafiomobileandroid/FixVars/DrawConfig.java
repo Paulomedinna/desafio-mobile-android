@@ -2,6 +2,7 @@ package com.mobile.desafio.zup.desafiomobileandroid.FixVars;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Gravity;
 import android.view.View;
@@ -10,6 +11,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.mobile.desafio.zup.desafiomobileandroid.AppInfo;
+import com.mobile.desafio.zup.desafiomobileandroid.BaseApp;
+import com.mobile.desafio.zup.desafiomobileandroid.MySaveList;
 import com.mobile.desafio.zup.desafiomobileandroid.R;
 
 public class DrawConfig {
@@ -45,8 +49,8 @@ public class DrawConfig {
             }
         });
 
-        if(searchClick != null)
-        searchBtn.setOnClickListener(searchClick);
+        if (searchClick != null)
+            searchBtn.setOnClickListener(searchClick);
         else searchBtn.setVisibility(View.GONE);
 
         drawer_layout.addDrawerListener(new DrawerLayout.DrawerListener() {
@@ -76,6 +80,8 @@ public class DrawConfig {
         toHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (context.getClass() != BaseApp.class)
+                    context.startActivity(new Intent(context, BaseApp.class));
 
             }
         });
@@ -84,14 +90,16 @@ public class DrawConfig {
             @Override
             public void onClick(View view) {
 
+                if (context.getClass() != AppInfo.class)
+                    context.startActivity(new Intent(context, AppInfo.class));
             }
         });
-
 
         toMyBookmarks.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                if (context.getClass() != MySaveList.class)
+                    context.startActivity(new Intent(context, MySaveList.class));
             }
         });
 
@@ -107,14 +115,12 @@ public class DrawConfig {
             }
         });
 
-
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 ((Activity) context).finish();
             }
         });
-
 
     }
 }

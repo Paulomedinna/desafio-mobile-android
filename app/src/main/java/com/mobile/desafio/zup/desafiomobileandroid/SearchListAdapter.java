@@ -15,14 +15,13 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.ArrayList;
 
 public class SearchListAdapter extends BaseAdapter {
 
     private JSONArray arrayList;
     private Context context;
 
-    public SearchListAdapter(JSONArray arrayList, Context context){
+    public SearchListAdapter(JSONArray arrayList, Context context) {
         this.arrayList = arrayList;
         this.context = context;
     }
@@ -47,7 +46,7 @@ public class SearchListAdapter extends BaseAdapter {
     @Override
     public View getView(int i, View convertView, ViewGroup viewGroup) {
 
-        convertView = ((Activity)context).getLayoutInflater().inflate(R.layout.list_search, null);
+        convertView = ((Activity) context).getLayoutInflater().inflate(R.layout.list_search, null);
 
         try {
             JSONObject json = (JSONObject) arrayList.get(i);

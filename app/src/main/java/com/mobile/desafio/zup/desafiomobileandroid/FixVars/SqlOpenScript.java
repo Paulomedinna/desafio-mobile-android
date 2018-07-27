@@ -9,8 +9,8 @@ public class SqlOpenScript extends SQLiteOpenHelper {
     private static final String DB_NAME = "database";
     private static final int VERSION = 2;
 
-    public SqlOpenScript(Context context ) {
-        super(context, DB_NAME,null,VERSION);
+    public SqlOpenScript(Context context) {
+        super(context, DB_NAME, null, VERSION);
     }
 
     @Override

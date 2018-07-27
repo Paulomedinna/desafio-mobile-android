@@ -19,7 +19,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".BaseApp" />
-        <activity android:name=".SelectedSearch"></activity>
+        <activity android:name=".SelectedSearch" />
+        <activity android:name=".MySaveList" />
+        <activity android:name=".AppInfo"></activity>
     </application>
 
 </manifest>
