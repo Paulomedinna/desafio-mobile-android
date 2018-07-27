@@ -8,6 +8,6 @@ https://youtu.be/pzY3yscUY8I
 acesse: https://github.com/murilooliveiraspinello/desafio-mobile/blob/master/Desafio-Mobile.pdf
 
 # APK para instalação rápida
-https://github.com/murilooliveiraspinello/desafio-mobile/blob/master/DESAFIO_MOBILE_APK.apk
+https://github.com/murilooliveiraspinello/desafio-mobile-android/blob/master/DESAFIO_ANDROID_APK.apk
 
 OBS: Veja também o projeto em React Native: https://github.com/murilooliveiraspinello/desafio-mobile/
